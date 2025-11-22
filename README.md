@@ -39,7 +39,6 @@ Tracking confidence threshold (Default：0.5)
 <pre>
 │  app.py
 │  keypoint_classification.ipynb
-│  point_history_classification.ipynb
 │  
 ├─model
 │  ├─keypoint_classifier
