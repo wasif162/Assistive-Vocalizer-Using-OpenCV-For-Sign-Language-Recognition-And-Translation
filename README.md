@@ -1,4 +1,4 @@
-# hand-gesture-recognition-using-mediapipe
+# Assistive Vocalizer Using Open-CV For Sign Language Recognition And Translation
 Estimate hand pose using MediaPipe (Python version).<br> This is a sample 
 
 
