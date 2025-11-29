@@ -64,4 +64,3 @@ The following files are stored.
 * Trained model(keypoint_classifier.tflite)
 * Label data(keypoint_classifier_label.csv)
 * Inference module(keypoint_classifier.py)
-
