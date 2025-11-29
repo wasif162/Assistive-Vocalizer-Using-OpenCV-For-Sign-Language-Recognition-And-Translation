@@ -44,13 +44,7 @@ Tracking confidence threshold (Default：0.5)
 │  │  │  keypoint_classifier.py
 │  │  │  keypoint_classifier.tflite
 │  │  └─ keypoint_classifier_label.csv
-│  │          
-│  └─point_history_classifier
-│      │  point_history.csv
-│      │  point_history_classifier.hdf5
-│      │  point_history_classifier.py
-│      │  point_history_classifier.tflite
-│      └─ point_history_classifier_label.csv
+│
 │          
 └─utils
     └─cvfpscalc.py
