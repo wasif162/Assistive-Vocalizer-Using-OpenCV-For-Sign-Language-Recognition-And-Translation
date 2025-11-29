@@ -13,7 +13,6 @@ import pyttsx3  # Add the import statement for pyttsx3
 
 from utils import CvFpsCalc
 from model import KeyPointClassifier
-from model import PointHistoryClassifier
 engine = pyttsx3.init()
 def get_args():
     parser = argparse.ArgumentParser()
@@ -71,7 +70,6 @@ def main():
 
     keypoint_classifier = KeyPointClassifier()
 
-    point_history_classifier = PointHistoryClassifier()
 
     # Read labels ###########################################################
     with open('model/keypoint_classifier/keypoint_classifier_label.csv',
@@ -157,10 +155,6 @@ def main():
                 # ... (unchanged code)
                 # Finger gesture classification
                 finger_gesture_id = 0
-                point_history_len = len(pre_processed_point_history_list)
-                if point_history_len == (history_length * 2):
-                    finger_gesture_id = point_history_classifier(
-                        pre_processed_point_history_list)
 
                 # Calculates the gesture IDs in the latest detection
                 finger_gesture_history.append(finger_gesture_id)
